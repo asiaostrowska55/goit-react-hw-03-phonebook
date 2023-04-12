@@ -10,6 +10,7 @@ export class App extends Component {
     filter: '',
   };
 
+  //local Storage
   componentDidMount() {
     const storageContacts = localStorage.getItem(this.STORAGE_KEY);
 
